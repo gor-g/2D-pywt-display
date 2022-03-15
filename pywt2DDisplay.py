@@ -2,6 +2,7 @@
 # AKA mySpecialUsername
 # March 2022
 
+import numpy as np
 
 def adapt_coeffs(coeffs, equa=False, Hsize=1000):
   """ EN: normalise, or normalise and applys a historgam equalisation for each coefficeint matrix of the pywt.wavedec2() output
