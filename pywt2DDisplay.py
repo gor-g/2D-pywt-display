@@ -1,9 +1,11 @@
 # Author : Gor G.
+# AKA mySpecialUsername
 # March 2022
 
 
 def adapt_coeffs(coeffs, equa=False, Hsize=1000):
-  """ normalise, or equalise the pywt.wavedec2() output per coefficient """
+  """ EN: normalise, or equalise the histogram each coefficeint matrix of the pywt.wavedec2() output
+  FR: normalise ou égalise l'histogramme de chaque coefficeint du résulatat de pywt.wavedec2() """
   def equalise(I, Hsize=Hsize):
     """
     input: 2D np.ndarray
